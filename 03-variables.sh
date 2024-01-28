@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PESRSON1=$1
+PERSON1=$1
 PERSON2=$2
 
 echo " $PERSON1 : HII HOW ARE YOU  $PERSON2 "
