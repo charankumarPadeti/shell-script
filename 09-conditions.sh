@@ -10,6 +10,6 @@ then
 
 else 
     
-    echo "the given number $number is less than 100"
+    echo "the given number $number is is not greather than 100"
 
 fi
