@@ -3,7 +3,7 @@
 ID=$(id -u)
 TIMESTAMP=$(date +%F-%H-%M-%S)
 
-LOGFILE="/temp/$0-$TIMESTAMP.LOG"
+LOGFILE="/tmp/$0-$TIMESTAMP.LOG"
 
 R=" \e[31m"
 G=" \e[32m"
