@@ -4,7 +4,7 @@ ID=$(id -u)
 
 R=" \e[31m"
 G=" \e[32m"
-
+N="\e[0m"
 VALIDATE(){
     if [ $1 -ne 0 ]
     then
@@ -12,7 +12,7 @@ VALIDATE(){
         exit 1
 
     else
-        echo -e "$2 $G.... SUCESS"
+        echo -e "$2 $G.... SUCESS $N"
     fi
 
 }
