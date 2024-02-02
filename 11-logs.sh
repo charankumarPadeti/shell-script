@@ -20,7 +20,7 @@ else
 
 fi
 
-yum install mysql -y
+yum install mysqll -y
 
 VALIADATE $? "installing my sql "
 
