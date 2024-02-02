@@ -8,7 +8,7 @@ G=\e[32m
 VALIDATE(){
     if [ $1 -ne 0 ]
     then
-        echo -e "$R ERROR $2: FAILED:"
+        echo " ERROR $2: $R FAILED:"
         exit 1
 
     else
