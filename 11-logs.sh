@@ -25,7 +25,7 @@ fi
 
 yum install mysqlllll -y
 
-VALIADATE $? "installing my sql "
+VALIDATE $? "installing my sql "
 
 yum install git -y
 
