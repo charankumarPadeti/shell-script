@@ -12,7 +12,7 @@ VALIDATE(){
         exit 1
 
     else
-        echo "$2.... SUCESS"
+        echo -e "$2 $G.... SUCESS"
     fi
 
 }
@@ -26,7 +26,7 @@ else
 
 fi
 
-yum install mysqlllll -y
+yum install mysql -y
 
 VALIDATE $? "installing my sql "
 
