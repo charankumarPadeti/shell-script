@@ -2,7 +2,8 @@
 
 ID=$(id -u)
 
-T=$(date)
+T=$(date +%F-%H-%M-%S)
+LOGFILE="/tmp/$0-$T.log"
 
 R="\e[31m"
 G="\e[32m"
@@ -28,8 +29,8 @@ else
 
 fi
 
-yum install mysql -y
+yum install mysql -y & >> $LOGFILE
 VALIDATE $? "INSTALLING MYSQL "
-yum install git -y
+yum install git -y & >> $LOGFILE
 VALIDATE $? "INSTALLING GIT "
 
