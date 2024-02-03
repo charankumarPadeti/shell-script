@@ -21,6 +21,6 @@ else
     echo "you are root user"
 
 install mysql  -y
-VALIDATE " installing mysql"
+VALIDATE " $? installing mysql"
 install git -y
-VALIDATE " installing git"
+VALIDATE " $? installing git"
