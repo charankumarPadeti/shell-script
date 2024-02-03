@@ -5,10 +5,10 @@ ID=$(id -u)
 VALIDATE(){
     if [ $1 -ne 0 ]
     then
-        echo "$3....FAILED"
+        echo "$2....FAILED"
         exit 1
     else
-        echo "$3....SUCESS"
+        echo "$2....SUCESS"
     fi
 }
 
