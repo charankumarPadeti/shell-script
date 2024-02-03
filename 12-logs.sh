@@ -9,6 +9,7 @@ VALIDATE(){
         exit 1
     else
         echo "....SUCESS"
+    fi
 }
 
 if [ $ID -ne 0 ]
