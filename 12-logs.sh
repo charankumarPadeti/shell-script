@@ -2,23 +2,27 @@
 
 ID=$(id -u)
 
+R="\e[31m"
+G="\e[32m"
+N="\e[0m"
+
 VALIDATE(){
     if [ $1 -ne 0 ]
     then
-        echo "$2....FAILED"
+        echo -e "$2....$R FAILED $N"
         exit 1
     else
-        echo "$2....SUCESS"
+        echo "$2....$G SUCESS $N"
     fi
 }
 
 if [ $ID -ne 0 ]
 then
-    echo "ERROR : Please go on root access"
+    echo -e "ERROR : $R Please go on root access $N"
     exit 1
 
 else
-    echo "you are root user"
+    echo -e " $G you are root user $N"
 
 fi
 
