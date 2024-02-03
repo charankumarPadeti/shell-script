@@ -7,11 +7,10 @@ VALIDATE(){
     then
         echo "..... failed"
         exit 1
-
-
     else
         echo " ......SECUSS"
 }
+
 if[ ID -ne 0 ]
 then
     echo "ERROR : Please go on root access"
