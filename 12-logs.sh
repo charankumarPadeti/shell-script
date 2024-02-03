@@ -22,8 +22,8 @@ else
 
 fi
 
-install mysql -y
+yum install mysql -y
 VALIDATE $?
-install mygit -y
+yum install mygit -y
 VALIDATE $?
 
