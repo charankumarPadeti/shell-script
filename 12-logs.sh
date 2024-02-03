@@ -4,12 +4,11 @@ ID=$(id -u)
 
 VALIDATE(){
     if[ $1 -ne 0 ]
-
     then
-        echo "..... failed"
+        echo "....$2 failed"
         exit 1
     else
-        echo " ......SECUSS"
+        echo " ......$2 SECUSS"
     fi
 }
 
