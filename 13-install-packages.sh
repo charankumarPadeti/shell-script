@@ -7,7 +7,7 @@ G="\e[32m"
 y="\e[33m"
 N="\e[0m"
 
-if[ $ID -ne 0]
+if[ $ID -ne 0 ]
 then
     echo -e" ERROR : $R Please go with root acess $N"
     exit 1
