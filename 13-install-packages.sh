@@ -15,4 +15,4 @@ else
     echo -e " $R you are root user $N"
 fi
 
-echo "All agruments passed : $@"
+echo "Alll agruments passed : $@"
