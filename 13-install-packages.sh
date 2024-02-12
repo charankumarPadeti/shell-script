@@ -7,7 +7,7 @@ G="\e[32m"
 y="\e[33m"
 N="\e[0m"
 
-TIMESTAMP= $(date +F%-%H-%M-%S)
+TIMESTAMP=$(date +F%-%H-%M-%S)
 
 LOGFILE ="/tmp/$0-$TIMESTAMP.log"
 
