@@ -27,7 +27,7 @@ then
     exit 1
 
 else
-    echo -e " $R you are root user $N"
+    echo -e " $G you are root user $N"
 fi
 
 # echo "Allll agruments passed : $@"
@@ -40,6 +40,6 @@ do
         yum install $package -y &>> $LOGFILE
         VALIDATE $? "installation of $packages "
     else
-        echo -e "$package is already installed ...$Y SKIPPING $n "
+        echo -e "$package is already installed ...$y SKIPPING $n "
     fi
 done
