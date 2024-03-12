@@ -23,7 +23,7 @@ if [ -z "$NAME" ] || [ -z "$WISHES" ];
 then
     echo "ERROR : Both name and wishes are mandatory "
     USAGE
-    exit1
+    exit 1
 fi
 
 echo " hello $NAME , $WISHES. Iam been learning shell-script"
