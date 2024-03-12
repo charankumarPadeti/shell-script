@@ -18,3 +18,10 @@ while getopts ":n:w:h" opt; do
         h |*) USAGE; exit;;
     esac
 done
+
+if [ -z "$NAME" ] || [ -z "$WISHES" ];
+then
+    echo "ERROR : Both name and wishes are mandatory "
+    USAGE
+    exit1
+fi
