@@ -25,3 +25,5 @@ then
     USAGE
     exit1
 fi
+
+echo " hello $NAME , $WISHES. Iam been learning shell-script"
